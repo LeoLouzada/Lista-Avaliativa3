@@ -9,6 +9,9 @@ int main() {
     char placaInvalida[9], diaInvalido[20];
     char placa[9], dia[20], diaMinusculo[20];
 
+    strcpy(placaInvalida, "INVALIDO");
+    strcpy(diaInvalido, "INVALIDO");
+
     scanf("%s", placaSalva);
     scanf("%s", diaSalvo);
 
